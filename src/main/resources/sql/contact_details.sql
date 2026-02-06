@@ -1,0 +1,35 @@
+-- SET FOREIGN_KEY_CHECKS = 0;
+INSERT INTO contact_details (city, street, street_number, postal_code, email, phone_number, created_at, updated_at) VALUES
+('Athens', 'Achilleos', '7', 10432, 'masterchef@gmail.com', '6265613115', '2026-01-14 09:35:01', '2026-01-14 09:35:01'),
+('Athens', 'Aeroporon', '11', '17564', 'cookingboss@yahoo.com', '6431658705', '2026-01-14 09:36:01', '2026-01-14 09:36:01'),
+('Korinthos', 'Aratou', '5', '20131', 'caterings@yahoo.com', '6436453205','2026-01-14 09:37:01', '2026-01-14 09:37:01'),
+('Patra', 'Androu', '22', '26442', 'beafsteak@gmail.com', '6431658705','2026-01-14 09:38:01', '2026-01-14 09:38:01'),
+('Athens', 'Platonos', '8', '10441', 'cucina@hotmail.com', '6438428705','2026-01-14 09:39:01', '2026-01-14 09:39:01'),
+('Athens', 'Sokratous', '4', '10431', 'bigchef@gmail.com', '6431690153','2026-01-14 09:40:01', '2026-01-14 09:40:01'),
+('Patra', 'Aristotelous', '7', '26335', 'cafecafe@gmail.com', '6477458705','2026-01-14 09:41:01', '2026-01-14 09:41:01'),
+('Athens', 'Eleftheriou Venizelou', '11', '10671', 'nostimia@yahoo.com', '6432615806','2026-01-14 09:42:01', '2026-01-14 09:42:01'),
+('Nafplio', 'Stamatiadou', '67', '21100', 'omeletaki@hotmail.com', '6431113205','2026-01-14 09:43:01', '2026-01-14 09:43:01'),
+('Nafplio', 'Adrianoupoleos', '8', '21100', 'coffebreak@hotmail.com', '6438859777','2026-01-14 09:44:01', '2026-01-14 09:44:01'),
+('Athens', 'Karaiskaki', '77', '19001', 'cookingchef@gmail.com', '6923858706','2026-01-14 09:45:01', '2026-01-14 09:45:01'),
+('Kalamata', 'Ariadnis', '5', '24131', 'cooker@gmail.com', '6988612708','2026-01-14 09:46:01', '2026-01-14 09:46:01'),
+('Athens', 'Irakleiou', '23', '10682', 'bakery@gmail.com', '6941638779','2026-01-14 09:47:01', '2026-01-14 09:47:01'),
+('Kavala', 'Sofokli Venizelou', '5', '65404', 'pastrychef@yahoo.com', '6642858745','2026-01-14 09:48:01', '2026-01-14 09:48:01'),
+('Thessaloniki', 'Tsimiski', '15', '54623', 'culinary@gmail.com', '6831658895','2026-01-14 09:49:01', '2026-01-14 09:49:01'),
+('Athens', 'Mitropoleos', '8', '10555', 'happymeal@yahoo.com', '6731658705','2026-01-14 09:50:01', '2026-01-14 09:50:01'),
+('Patra', 'Agasiou', '9', '26225', 'breakfast@gmail.com', '6931658705','2026-01-14 09:51:01', '2026-01-14 09:51:01'),
+('Athens', 'Tatoiou', '115', '14452', 'saltsa@yahoo.com', '6231658705','2026-01-14 09:52:01', '2026-01-14 09:52:01'),
+('Athens', 'Kritis', '67', '11363', 'lovetostudy@gmail.com', '6331658705','2026-01-14 09:53:01', '2026-01-14 09:53:01'),
+('Athens', 'Samou', '6', '10438', 'tastythings@yahoo.com', '6631658705','2026-01-14 09:54:01', '2026-01-14 09:54:01'),
+('Thessaloniki', 'Tsimiski', '45', '54622', 'v.papadopoulos@gmail.com', '6931234567', '2026-01-14 09:55:01', '2026-01-14 09:55:01'),
+('Patra', 'Korinthou', '12', '26221', 'k.dimitriou@yahoo.gr', '6942345678', '2026-01-14 09:56:01', '2026-01-14 09:56:01'),
+('Larisa', 'Riga Fereou', '8', '41222', 'm.stamatiou@hotmail.com', '6953456789', '2026-01-14 09:57:01', '2026-01-14 09:57:01'),
+('Athens', 'Stadiou', '28', '10564', 'cheesecake@gmail.com', '6914567890', '2026-01-14 09:58:01', '2026-01-14 09:58:01'),
+('Heraklion', '25is Avgoustou', '15', '71201', 'pastrychef@yahoo.gr', '6975678901', '2026-01-14 09:59:01', '2026-01-14 09:59:01'),
+('Volos', 'Dimitriados', '33', '38333', 'tavernaki@gmail.com', '6986789012', '2026-01-14 10:00:01', '2026-01-14 10:00:01'),
+('Ioannina', 'Averof', '7', '45221', 'mamacucina@hotmail.com', '6997890123', '2026-01-14 10:01:01', '2026-01-14 10:01:01'),
+('Kalamata', 'Navarinou', '22', '24100', 'mamapeinao@gmail.com', '6908901234', '2026-01-14 10:02:01', '2026-01-14 10:02:01'),
+('Chania', 'Skalidi', '4', '73100', 'spitikesnostimies@yahoo.gr', '6919012345', '2026-01-14 10:03:01', '2026-01-14 10:03:01'),
+('Rhodes', 'Ierou Lochou', '9', '85100', 'boukiakaisixorio@gmail.com', '6920123456', '2026-01-14 10:04:01', '2026-01-14 10:04:01');
+-- SET FOREIGN_KEY_CHECKS = 1;
+
+

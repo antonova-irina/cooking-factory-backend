@@ -1,0 +1,13 @@
+-- SET FOREIGN_KEY_CHECKS = 0;
+INSERT INTO users (is_active, username, password, role, vat, created_at, updated_at) VALUES
+(1, 'alexadmin', '$2a$12$sBbuWpysCk2EV/iwbjaNy.tLnvINgIUpDnwMtbo1HdTtDKlKyF2Qm', 'ADMIN', '012345678', '2026-01-15 08:34:01', '2026-01-15 08:34:01'),
+(1, 'nikoschatzi', '$2a$12$QNB1EhpANyJ7n1NmPSZLd.GNrpODWnYfkTlmuHzW6nPLov5Y/RWga', 'INSTRUCTOR', '465231985', '2026-01-15 08:35:01', '2026-01-15 08:35:01'),
+(1, 'petroskar', '$2a$12$qKtfFex5.v/pwrYIrBdgsu8hJ99RT/8WYAaxzuwZ1PtVyODKRs0m.', 'INSTRUCTOR', '234891237', '2026-01-15 08:36:01', '2026-01-15 08:36:01'),
+(1, 'stergant', '$2a$12$sQ36q2YA2Ge.LIMGd43JoOj73A891z4EZBeXz3sbu7v3dJ9BF.JTu', 'INSTRUCTOR', '888742356', '2026-01-15 08:37:01', '2026-01-15 08:37:01'),
+(1, 'ariganatos', '$2a$12$rGl05qLIxKbKH0ObYTwKFOWIpqTD4pS/49v0lKRgYyFdZ4R/vWKey', 'INSTRUCTOR', '055664982', '2026-01-15 08:38:01', '2026-01-15 08:38:01'),
+(1, 'mstamaiou', '$2a$12$jncYkpm5GhNWeH9ZN9H6fewHnritJeyXnp0ZM9VOAzbTBy.mbTerq', 'INSTRUCTOR', '894513257', '2026-01-15 08:39:01', '2026-01-15 08:39:01'),
+(1, 'emarkou', '$2a$12$pOIT/S1Pgp.qbakPV.U8N.H4pvKIO/Pt/DE44eloGgYe63HcMhsom', 'INSTRUCTOR', '011355649', '2026-01-15 08:40:01', '2026-01-15 08:40:01'),
+(1, 'vpapadopoulos', '$2a$12$QNB1EhpANyJ7n1NmPSZLd.GNrpODWnYfkTlmuHzW6nPLov5Y/RWga', 'INSTRUCTOR', '123456789', '2026-01-15 08:41:01', '2026-01-15 08:41:01'),
+(1, 'kdimitriou', '$2a$12$QNB1EhpANyJ7n1NmPSZLd.GNrpODWnYfkTlmuHzW6nPLov5Y/RWga', 'INSTRUCTOR', '234567890', '2026-01-15 08:42:01', '2026-01-15 08:42:01'),
+(1, 'mstamatiou2', '$2a$12$QNB1EhpANyJ7n1NmPSZLd.GNrpODWnYfkTlmuHzW6nPLov5Y/RWga', 'INSTRUCTOR', '345678901', '2026-01-15 08:43:01', '2026-01-15 08:43:01');
+-- SET FOREIGN_KEY_CHECKS = 1;

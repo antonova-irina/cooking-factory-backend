@@ -1,0 +1,55 @@
+HELP.md
+.gradle
+build/
+logs/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Environment and secrets (do not commit)
+.env
+.env.local
+.env.*.local
+
+# Test and report output
+htmlReport/
+*Test Results*
+*.log
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Node (frontend-schemas) ###
+frontend-schemas/node_modules/
+frontend-schemas/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
