@@ -75,11 +75,6 @@ The app starts on `http://localhost:8080` by default.
 - HTTP server: 8080
 - MySQL default: 3306 (configurable via env)
 
-## Publishing to GitHub
-- **Do not commit `.env`** — it is in `.gitignore`; keep secrets in environment variables or use [GitHub Secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets) for CI.
-- Generated files (`build/`, `htmlReport/`, test result HTML, `node_modules/`) are ignored.
-- Set `MYSQL_PASSWORD` and `JWT_SECRET_KEY` in your deployment or CI environment; dev-profile defaults in `application-dev.properties` are for local use only.
-
 ## License
 No license file found in the repository.
 
