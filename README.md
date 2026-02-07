@@ -40,7 +40,7 @@ The `dev` profile requires the following environment variables (no secrets are c
       
      _// (during the first run the db tables will be automatically created from the model)_
 
-6. Uncomment lines 14-15 in `src/main/resources/application-dev.properties`, terminate and re-run the app, in order to populate sample data.
+6. Uncomment lines 15-16 in `src/main/resources/application-dev.properties`, terminate and re-run the app, in order to populate sample data.
 
 The app starts on `http://localhost:8080` by default.
 
