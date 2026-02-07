@@ -23,8 +23,8 @@ The `dev` profile requires the following environment variables:
 
 Other notable properties (currently stored in `application-dev.properties`):
 
-    `app.security.secret-key`
-    `app.security.jwt-expiration`
+    - app.security.secret-key
+    - app.security.jwt-expiration
 
 ## Setup and running the Application
 1. Ensure MySQL is running and a database that matches `MYSQL_DB` exists.
@@ -42,6 +42,7 @@ Other notable properties (currently stored in `application-dev.properties`):
 5. Uncomment the below lines in `src/main/resources/application-dev.properties`:
    
 `spring.sql.init.mode=always`
+
 `spring.sql.init.data-locations=classpath:sql/users.sql,classpath:sql/contact_details.sql,classpath:sql/instructors.sql,classpath:sql/courses.sql,classpath:sql/students.sql,classpath:sql/students_courses.sql`.
 
 Then terminate and re-run the app, in order to populate sample data.
