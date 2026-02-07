@@ -48,6 +48,7 @@ out/
 .vscode/
 
 ### Node (frontend-schemas) ###
+frontend-schemas/
 frontend-schemas/node_modules/
 frontend-schemas/dist/
 npm-debug.log*
