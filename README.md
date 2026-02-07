@@ -22,6 +22,7 @@ The `dev` profile requires the following environment variables:
 - MYSQL_PASSWORD (default: `c00k1ngF@`)
 
 Other notable properties (currently stored in `application-dev.properties`):
+
     `app.security.secret-key`
     `app.security.jwt-expiration`
 
@@ -39,6 +40,7 @@ Other notable properties (currently stored in `application-dev.properties`):
      _// (during the first run the db tables will be automatically created from the model)_
 
 5. Uncomment the below lines in `src/main/resources/application-dev.properties`:
+   
 `spring.sql.init.mode=always`
 `spring.sql.init.data-locations=classpath:sql/users.sql,classpath:sql/contact_details.sql,classpath:sql/instructors.sql,classpath:sql/courses.sql,classpath:sql/students.sql,classpath:sql/students_courses.sql`.
 
